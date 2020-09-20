@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.project77777.Main4Activity">
+
+    <Button
+        android:id="@+id/button_Paal"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:ems="10"
+        android:padding="10sp"
+        android:text="@string/button_Paal"
+        android:textColor="@color/colorwhite"
+        app:layout_constraintBottom_toTopOf="@+id/button_Piel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/button_Piel"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:ems="10"
+        android:padding="10sp"
+        android:text="@string/button_Piel"
+        android:textColor="@color/colorwhite"
+        app:layout_constraintBottom_toTopOf="@+id/button_Ifil"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_Paal"
+        app:layout_constraintVertical_bias="0.19"
+        tools:ignore="DuplicateIds" />
+
+    <Button
+        android:id="@+id/button_Ifil"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:ems="10"
+        android:padding="10sp"
+        android:text="@string/button_Hifil"
+        android:textColor="@color/colorwhite"
+        app:layout_constraintBottom_toTopOf="@+id/button_Imperative"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_Piel"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/button_Imperative"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:ems="10"
+        android:padding="10sp"
+        android:text="@string/button_Hitpael"
+        android:textColor="@color/colorwhite"
+        app:layout_constraintBottom_toTopOf="@+id/button_Ufal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_Ifil"
+        app:layout_constraintVertical_bias="0.499" />
+
+    <Button
+        android:id="@+id/button_Nifal"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:ems="10"
+        android:padding="10sp"
+        android:text="@string/button_Nifal"
+        android:textColor="@color/colorwhite"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_Pual"
+        app:layout_constraintVertical_bias="0.971" />
+
+    <Button
+        android:id="@+id/button_Pual"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:ems="10"
+        android:padding="10sp"
+        android:text="@string/UFAL"
+        android:textColor="@color/colorwhite"
+        app:layout_constraintBottom_toTopOf="@+id/button_Nifal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_Ufal"
+        app:layout_constraintVertical_bias="0.839" />
+
+    <Button
+        android:id="@+id/button_Ufal"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:ems="10"
+        android:padding="10sp"
+        android:text="@string/button_Hufal"
+        android:textColor="@color/colorwhite"
+        app:layout_constraintBottom_toTopOf="@+id/button_Pual"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_Imperative"
+        app:layout_constraintVertical_bias="0.743" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

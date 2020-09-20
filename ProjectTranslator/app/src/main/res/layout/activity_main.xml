@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/design_default_color_primary"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="330dp"
+            android:paddingTop="10sp"
+            android:paddingBottom="10sp"
+            app:srcCompat="@drawable/a62ae006c1edc4c97e92f9c8ea3b8780" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Авторизация"
+            android:textColor="@android:color/white"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/editTextTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40sp"
+            android:layout_marginTop="70sp"
+            android:layout_marginRight="40sp"
+            android:background="@drawable/fields"
+            android:ems="10"
+            android:hint="Глагол"
+            android:inputType="textPersonName"
+            android:padding="10sp"
+            android:textColor="@color/colorAccent" />
+
+        <Button
+            android:id="@+id/btnActTwo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="250sp"
+            android:layout_marginTop="20sp"
+            android:layout_marginRight="70sp"
+            android:background="@drawable/button"
+            android:onClick="nextActivity"
+            android:text="@string/next"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Project 77777</string>
+    <string name="text_activityTwo">This is Activity Two</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="future_tense">FUTURE TENSE</string>
+    <string name="PAST_TENSE">PAST TENSE</string>
+    <string name="PRESENT_TENSE">PRESENT TENSE</string>
+    <string name="imperative">IMPERATIVE</string>
+    <string name="button_Paal">PAAL</string>
+    <string name="button_Piel">PIEL</string>
+    <string name="button_Hifil">IFIL</string>
+    <string name="button_Hitpael">ITPAEL</string>
+    <string name="button_Hufal">NIFAL</string>
+    <string name="button_Poole">PUAL</string>
+    <string name="button_Nifal">UFAL</string>
+    <string name="UFAL">PUAL</string>
+    <string name="infinitive">INFINITIVE</string>
+    <string name="beinoni">BEINONI</string>
+    <string name="next">NEXT</string>
+    <string name="no_connection">No internet connection! Cannot be translated!</string>
+
+
+
+</resources>
